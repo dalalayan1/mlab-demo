@@ -5,13 +5,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="" href="index.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </head>
     <body>
         <div class="container">
-            <div class="row show-data">
-                
+            <div class="row show-data" id="show-data"> 
+                <h3>Bike data</h3> 
+                <hr/>
             </div>
+            <hr/>
+            
+            <form class="row form-group" id="insert-data">
+                <h3>Insert a bike</h3>
+                <hr/>
+                <input type="text" class="form-control" placeholder="Enter ID...">
+                <input type="text" class="form-control" placeholder="Enter name...">
+                <input type="text" class="form-control" placeholder="Enter company...">
+                <button type="submit" class="btn btn-info" id="add-btn">Add</button>
+            </form>
         </div>
     </body>
     <script src="index.js"></script>

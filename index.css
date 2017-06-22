@@ -1,0 +1,51 @@
+body {
+    background: #ddd;
+    color: #6b5f5f;
+}
+
+.show-data {
+    background: #fff;
+    text-align: center;
+    font-size: 24px;
+}
+.heading {
+    padding: 10px 50px;
+}
+.heading>span {
+    text-transform: uppercase;
+    border-bottom: 4px solid #269abc;
+  
+}
+
+.datum {
+    padding: 10px 50px;
+}
+
+.datum>button {
+    position: absolute;
+    right: 20px;
+}
+
+.delete-btn {
+    display: none;
+}
+
+.datum>span:hover {
+    color: #269abc;
+    opacity: 0.7;
+}
+
+.form-group {
+    background: #fff;
+    padding: 50px;
+    text-align: center;
+}
+
+.form-group>input {
+    margin: 10px 0;
+}
+
+.btn {
+    padding: 6px 24px;
+    
+}
